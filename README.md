@@ -9,8 +9,19 @@ This course utilises several tools, which have to be installed on your PC (if yo
 3) IDE: For running code and Jupyter notebooks and for facilitating version control, we will be using an IDE. All demonstration will be done in Visual Studio Code, but other development environments, such as Pycharm, work as well. Whatever IDE you are using, make sure that you keep it and its extensions (e.g. for Jupyter) up to date and that you are familiar with the working environment.
 
 ## How to work with this repository
+The initial steps:
 1) Fork the repository using the Fork button on GitHub.
-2) 
+2) Clone your fork.
+3) Create a virtual environment, by running ´uv venv´ in the terminal (in the IDE).
+4) Activate the virtual environment (e.g. on Windows: ´.venv\Scripts\activate´).
+5) Run the command ´uv sync´ to synchronize the environment with the provided lock file. Any missing dependencies will be thereby installed.
+6) Select the Python interpreter from the DSA104 environment (in VSC: click in the Search bar, hit Ctrl+P, then type "Python: Select Interpreter" - or use the button in the lower right corner of the window). Likewise you can can set the Interpreter for Jupyter notebooks.
+
+This repository will be updated many times throughout the course. Make sure to keep the repository and the virtual environment up to date by synchronizing via GitHub and the ´uv sync´ command, respectively.
+
+We do recommend to practice the git workflow throughout this course and to commit to your fork after significant changes. 
+
+*Important: In order to avoid merge conflicts, always create a copy of the template notebooks or scripts under a different name in each lecture before working on them for a personal solution (or create and entirely new file).* This way you can always accept incoming changes, without altering your personal version of the file. 
 
 ## Authors
 This repository was created and is maintained by Jasmine Hafner and Johannes Schörgenhumer.
