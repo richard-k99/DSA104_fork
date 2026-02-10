@@ -21,10 +21,10 @@ This repository will be updated many times throughout the course. Make sure to k
 
 We do recommend to practice the git workflow throughout this course and to commit to your fork after significant changes. 
 
-*Important: In order to avoid merge conflicts, always create a copy of the template notebooks or scripts under a different name in each lecture before working on them for a personal solution (or create and entirely new file).* This way you can always accept incoming changes, without altering your personal version of the file. 
+**Important: In order to avoid merge conflicts, always create a copy of the template notebooks or scripts under a different name in each lecture before working on them for a personal solution (or create and entirely new file).** This way you can always accept incoming changes, without altering your personal file versions. 
 
 ## Authors
-This repository was created and is maintained by Jasmine Hafner and Johannes Schörgenhumer.
+This repository was created and is maintained by Jasmin Hafner and Johannes Schörgenhumer.
 
 ## License
 CC BY-NC-SA 4.0 
